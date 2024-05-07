@@ -13,7 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.add_block{
+.add_block {
   display: flex;
   column-gap: 20px;
   max-width: 50%;
@@ -21,30 +21,30 @@
   margin-bottom: 30px;
   margin-top: 30px;
 }
-.size{
+.size {
   max-width: 50%;
   margin: 0 auto;
 }
-.mb{
+.mb {
   margin-bottom: 20px;
 }
-.wrapper{
+.wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.button_block{
+.button_block {
   display: flex;
   align-items: center;
   column-gap: 10px;
 }
-.end-block{
+.end-block {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.title{
+.title {
   padding-top: 40px;
   text-align: center;
 }

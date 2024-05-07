@@ -35,12 +35,11 @@ function displayTask(task) {
 
   // button for change task
   const changeButton = todo.querySelector("#btn-change");
-  changeButton.addEventListener('click', () => {
+  changeButton.addEventListener("click", () => {
     console.log("можно редактировать");
     const changeElement = todo.querySelector("#el");
-    changeElement.setAttribute('contenteditable', 'true');
-  })
-
+    changeElement.setAttribute("contenteditable", "true");
+  });
 
   document.querySelector("#app").append(todo);
   return todo;
@@ -61,6 +60,3 @@ deleteAllTasks.addEventListener("click", () => {
   localStorage.removeItem("items");
   document.querySelector("#app").innerHTML = "";
 });
-
-
-
