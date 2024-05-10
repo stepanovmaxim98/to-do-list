@@ -1,5 +1,5 @@
 import "./style.css";
-import "./node_modules/bulma/css/bulma.css"; // уточнить о правильности подключения
+//import "./node_modules/bulma/css/bulma.css"; // уточнить о правильности подключения
 
 const input = document.querySelector("input");
 const button = document.querySelector("button");
